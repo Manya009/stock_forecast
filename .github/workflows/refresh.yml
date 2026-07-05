@@ -1,0 +1,33 @@
+name: Weekly Regime Watch Refresh
+
+on:
+  schedule:
+    - cron: "0 8 * * 1"   # every Monday 08:00 UTC
+  workflow_dispatch:        # allows manual trigger from the Actions tab
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run full pipeline (fetch -> detect -> narrate)
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: python src/run_pipeline.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name "regime-watch-bot"
+          git config user.email "actions@github.com"
+          git add data/
+          git diff --quiet && git diff --staged --quiet || git commit -m "Automated weekly refresh"
+          git push
