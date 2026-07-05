@@ -2,7 +2,7 @@
 
 **An AI-narrated dashboard that detects when UK financial and economic trends genuinely change, not just when the numbers go up or down.**
 
-[Live Demo](#) · [How it works](#how-it-works) · [Validated findings](#validated-findings)
+[Live Demo](https://stockforecast-zy7.streamlit.app/) · [How it works](#how-it-works) · [Validated findings](#validated-findings)
 
 ---
 
