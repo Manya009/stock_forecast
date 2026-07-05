@@ -200,5 +200,207 @@
       "latest_date": "2026-05-01"
     },
     "brief": "The current regime for the UK cpi_rate series is regime 1, which began on 2026-04-01. This regime has a mean of 0.29744 and volatility of 0.20162. In historical context, regime 1 has a higher mean than regime 0, which had a mean of 0.03486 and higher volatility of 0.76750. The latest value of 0.2 as of 2026-05-01 is slightly below the current regime's mean. Regime 1 has been the dominant regime, with 351 data points, compared to 109 points in regime 0. The current regime has held for 2 days, following a series of structural change-points, the most recent being 2024-10-01."
+  },
+  {
+    "generated_at": "2026-07-05T01:57:10.590705",
+    "series_name": "bank_rate",
+    "analysis": {
+      "series_name": "bank_rate",
+      "mode": "level",
+      "changepoint_dates": [
+        "2016-08-05",
+        "2017-11-02",
+        "2018-08-06",
+        "2020-03-11",
+        "2022-02-03",
+        "2022-05-03",
+        "2022-08-04",
+        "2022-09-26",
+        "2022-11-07",
+        "2022-12-19",
+        "2023-02-02",
+        "2023-03-23",
+        "2023-06-22",
+        "2024-11-06",
+        "2025-05-08",
+        "2025-12-15"
+      ],
+      "current_regime_label": 1,
+      "regime_since": "2022-08-04",
+      "days_in_current_regime": 987,
+      "regime_mean": 4.327760891590679,
+      "regime_std": 0.87495511627272,
+      "all_states": {
+        "0": {
+          "mean": 0.4637421383647799,
+          "std": 0.21190174280009283,
+          "n_points": 3180
+        },
+        "1": {
+          "mean": 4.327760891590679,
+          "std": 0.87495511627272,
+          "n_points": 987
+        }
+      },
+      "latest_value": 3.75,
+      "latest_date": "2026-07-02"
+    },
+    "brief": "The bank rate is currently at 3.75%. This is one of the more stable periods in recent years, with interest rates having been unusually high for an extended stretch. Similar periods in the past have lasted for a while, so it's possible this could continue. With inflation a concern, higher interest rates like this are often used to help keep prices in check."
+  },
+  {
+    "generated_at": "2026-07-05T01:57:11.300324",
+    "series_name": "gbpusd",
+    "analysis": {
+      "series_name": "gbpusd",
+      "mode": "returns",
+      "changepoint_dates": [
+        "2021-08-17",
+        "2021-08-24",
+        "2021-09-07",
+        "2021-10-05",
+        "2021-10-19",
+        "2021-12-21",
+        "2022-01-18",
+        "2022-02-01",
+        "2022-02-22",
+        "2022-03-15",
+        "2022-04-19",
+        "2022-05-10",
+        "2022-05-17",
+        "2022-05-31",
+        "2022-07-19",
+        "2022-08-02",
+        "2022-08-16",
+        "2022-09-06",
+        "2022-09-13",
+        "2022-09-20",
+        "2022-09-27",
+        "2022-10-04",
+        "2022-10-11",
+        "2022-11-01",
+        "2022-11-08",
+        "2022-11-15",
+        "2022-12-06",
+        "2022-12-27",
+        "2023-01-31",
+        "2023-02-07",
+        "2023-02-28",
+        "2023-05-09",
+        "2023-05-30",
+        "2023-06-20",
+        "2023-07-04",
+        "2023-07-18",
+        "2023-07-25",
+        "2023-10-31",
+        "2023-11-07",
+        "2023-11-14",
+        "2023-12-05",
+        "2023-12-12",
+        "2024-03-05",
+        "2024-03-12",
+        "2024-04-23",
+        "2024-07-02",
+        "2024-07-16",
+        "2024-08-13",
+        "2024-08-27",
+        "2024-09-17",
+        "2024-10-01",
+        "2024-10-08",
+        "2024-11-12",
+        "2024-11-19",
+        "2025-01-08",
+        "2025-01-15",
+        "2025-01-29",
+        "2025-02-12",
+        "2025-02-19",
+        "2025-03-19",
+        "2025-04-09",
+        "2025-04-16",
+        "2025-06-13",
+        "2025-06-20",
+        "2025-06-27",
+        "2025-07-18",
+        "2025-07-25",
+        "2025-08-01",
+        "2025-08-15",
+        "2025-11-21",
+        "2025-12-29",
+        "2026-01-20",
+        "2026-01-27",
+        "2026-04-07",
+        "2026-05-12",
+        "2026-05-19",
+        "2026-05-26",
+        "2026-06-09",
+        "2026-06-16",
+        "2026-06-23"
+      ],
+      "current_regime_label": 0,
+      "regime_since": "2025-04-30",
+      "days_in_current_regime": 307,
+      "regime_mean": -6.844283800224139e-05,
+      "regime_std": 0.005680973407847946,
+      "all_states": {
+        "0": {
+          "mean": -6.844283800224139e-05,
+          "std": 0.005680973407847946,
+          "n_points": 1156
+        },
+        "1": {
+          "mean": 0.0002151578664779663,
+          "std": 0.01169225633259599,
+          "n_points": 144
+        }
+      },
+      "latest_value": 1.334988713264465,
+      "latest_date": "2026-07-04"
+    },
+    "brief": "The British pound to US dollar exchange rate is currently at 1.33499. This is one of the more stable periods for the exchange rate in recent years, with relatively small changes. The exchange rate has been holding steady for about 307 days, which is a long stretch compared to the past. With the exchange rate being relatively stable, it may indicate that efforts to control inflation are having an impact."
+  },
+  {
+    "generated_at": "2026-07-05T01:57:16.986482",
+    "series_name": "cpi_rate",
+    "analysis": {
+      "series_name": "cpi_rate",
+      "mode": "level",
+      "changepoint_dates": [
+        "1990-03-01",
+        "1991-01-01",
+        "1991-06-01",
+        "1993-02-01",
+        "1993-07-01",
+        "2008-02-01",
+        "2008-07-01",
+        "2010-08-01",
+        "2011-06-01",
+        "2014-05-01",
+        "2016-06-01",
+        "2021-06-01",
+        "2022-04-01",
+        "2022-09-01",
+        "2023-07-01",
+        "2024-10-01"
+      ],
+      "current_regime_label": 1,
+      "regime_since": "2026-04-01",
+      "days_in_current_regime": 2,
+      "regime_mean": 0.29743589743589743,
+      "regime_std": 0.20161521776223,
+      "all_states": {
+        "0": {
+          "mean": 0.03486238532110091,
+          "std": 0.7675023410045869,
+          "n_points": 109
+        },
+        "1": {
+          "mean": 0.29743589743589743,
+          "std": 0.20161521776223,
+          "n_points": 351
+        }
+      },
+      "latest_value": 0.2,
+      "latest_date": "2026-05-01"
+    },
+    "brief": "Interest rates are currently at 0.2%. This is one of the lower stretches in recent years, and it's been relatively stable. In the past, periods with similar interest rates have lasted for a while, so it will be interesting to see how long this one continues. With inflation a concern, low interest rates like this can be a sign that efforts to control prices are working."
   }
 ]
