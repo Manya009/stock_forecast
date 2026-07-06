@@ -402,5 +402,204 @@
       "latest_date": "2026-05-01"
     },
     "brief": "Interest rates are currently at 0.2%. This is one of the lower stretches in recent years, and it's been relatively stable. In the past, periods with similar interest rates have lasted for a while, so it will be interesting to see how long this one continues. With inflation a concern, low interest rates like this can be a sign that efforts to control prices are working."
+  },
+  {
+    "generated_at": "2026-07-06T11:59:49.152216",
+    "series_name": "bank_rate",
+    "analysis": {
+      "series_name": "bank_rate",
+      "mode": "level",
+      "changepoint_dates": [
+        "2016-08-05",
+        "2017-11-02",
+        "2018-08-06",
+        "2020-03-11",
+        "2022-02-03",
+        "2022-05-03",
+        "2022-08-04",
+        "2022-09-26",
+        "2022-11-07",
+        "2022-12-19",
+        "2023-02-02",
+        "2023-03-23",
+        "2023-06-22",
+        "2024-11-06",
+        "2025-05-08",
+        "2025-12-15"
+      ],
+      "current_regime_label": 1,
+      "regime_since": "2022-08-04",
+      "days_in_current_regime": 988,
+      "regime_mean": 4.3271761133603235,
+      "regime_std": 0.8747051680008551,
+      "all_states": {
+        "0": {
+          "mean": 0.4637421383647799,
+          "std": 0.21190174280009283,
+          "n_points": 3180
+        },
+        "1": {
+          "mean": 4.3271761133603235,
+          "std": 0.8747051680008551,
+          "n_points": 988
+        }
+      },
+      "latest_value": 3.75,
+      "latest_date": "2026-07-03"
+    },
+    "brief": "The bank rate is currently at 3.75%. This is relatively low compared to the past few years, when rates have been higher for an extended stretch. In fact, this is one of the more stable periods in recent years, with rates holding fairly steady since 2022. The current rate is also part of a broader effort to manage inflation, as higher interest rates can help slow down price increases."
+  },
+  {
+    "generated_at": "2026-07-06T11:59:49.883220",
+    "series_name": "gbpusd",
+    "analysis": {
+      "series_name": "gbpusd",
+      "mode": "returns",
+      "changepoint_dates": [
+        "2021-07-14",
+        "2021-07-21",
+        "2021-08-04",
+        "2021-12-22",
+        "2021-12-29",
+        "2022-02-23",
+        "2022-03-16",
+        "2022-03-23",
+        "2022-04-20",
+        "2022-05-11",
+        "2022-06-01",
+        "2022-06-08",
+        "2022-06-15",
+        "2022-06-29",
+        "2022-07-13",
+        "2022-08-03",
+        "2022-09-07",
+        "2022-09-14",
+        "2022-09-21",
+        "2022-09-28",
+        "2022-10-05",
+        "2022-10-12",
+        "2022-10-19",
+        "2022-10-26",
+        "2022-12-14",
+        "2023-01-04",
+        "2023-02-01",
+        "2023-02-08",
+        "2023-05-10",
+        "2023-05-31",
+        "2023-06-14",
+        "2023-06-21",
+        "2023-07-05",
+        "2023-07-19",
+        "2023-07-26",
+        "2023-09-06",
+        "2023-10-04",
+        "2023-11-15",
+        "2023-11-29",
+        "2024-04-10",
+        "2024-04-24",
+        "2024-05-01",
+        "2024-07-03",
+        "2024-07-17",
+        "2024-08-14",
+        "2024-08-28",
+        "2024-09-11",
+        "2024-10-02",
+        "2024-10-09",
+        "2024-11-13",
+        "2024-11-27",
+        "2024-12-11",
+        "2025-01-09",
+        "2025-01-16",
+        "2025-03-20",
+        "2025-04-10",
+        "2025-04-17",
+        "2025-06-16",
+        "2025-06-23",
+        "2025-06-30",
+        "2025-07-21",
+        "2025-07-28",
+        "2025-08-04",
+        "2025-08-11",
+        "2025-09-22",
+        "2025-09-29",
+        "2025-10-06",
+        "2025-10-13",
+        "2025-10-20",
+        "2025-11-03",
+        "2026-01-21",
+        "2026-01-28",
+        "2026-03-18",
+        "2026-03-25",
+        "2026-04-01",
+        "2026-04-08",
+        "2026-04-15"
+      ],
+      "current_regime_label": 0,
+      "regime_since": "2025-04-30",
+      "days_in_current_regime": 307,
+      "regime_mean": -7.107557156385281e-05,
+      "regime_std": 0.005682863095503149,
+      "all_states": {
+        "0": {
+          "mean": -7.107557156385281e-05,
+          "std": 0.005682863095503149,
+          "n_points": 1155
+        },
+        "1": {
+          "mean": 0.0002151578664779663,
+          "std": 0.01169225633259599,
+          "n_points": 144
+        }
+      },
+      "latest_value": 1.334507703781128,
+      "latest_date": "2026-07-06"
+    },
+    "brief": "The British pound to US dollar exchange rate is currently at 1.3345. This is one of the calmer stretches in recent years, with relatively small changes in the exchange rate over the past 307 days. Historically, periods like this have lasted for several months, giving some sense of stability. With the exchange rate being relatively stable, it might suggest that economic factors, such as interest rates, are being managed to control inflation."
+  },
+  {
+    "generated_at": "2026-07-06T11:59:50.520506",
+    "series_name": "cpi_rate",
+    "analysis": {
+      "series_name": "cpi_rate",
+      "mode": "level",
+      "changepoint_dates": [
+        "1990-03-01",
+        "1991-01-01",
+        "1991-06-01",
+        "1993-02-01",
+        "1993-07-01",
+        "2008-02-01",
+        "2008-07-01",
+        "2010-08-01",
+        "2011-06-01",
+        "2014-05-01",
+        "2016-06-01",
+        "2021-06-01",
+        "2022-04-01",
+        "2022-09-01",
+        "2023-07-01",
+        "2024-10-01"
+      ],
+      "current_regime_label": 1,
+      "regime_since": "2026-04-01",
+      "days_in_current_regime": 2,
+      "regime_mean": 0.29743589743589743,
+      "regime_std": 0.20161521776223,
+      "all_states": {
+        "0": {
+          "mean": 0.03486238532110091,
+          "std": 0.7675023410045869,
+          "n_points": 109
+        },
+        "1": {
+          "mean": 0.29743589743589743,
+          "std": 0.20161521776223,
+          "n_points": 351
+        }
+      },
+      "latest_value": 0.2,
+      "latest_date": "2026-05-01"
+    },
+    "brief": "Inflation is currently at 0.2%, which is relatively low. This is one of the calmer stretches in recent years, with prices having been more stable than they were in some other periods. The current low inflation rate might be connected to efforts to keep prices under control. Similar periods of low inflation in the past have sometimes lasted for several months, giving some sense of how long this might continue."
   }
 ]
